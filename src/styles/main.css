@@ -44,7 +44,8 @@ body {
     background-size: cover;
 }
 
-.menu-lives {
+.menu-lives,
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,6 +56,14 @@ body {
 }
 
 .menu-time h2:nth-child(2),
-.menu-score h2:nth-child(2) {
+.menu-score h2:nth-child(2),
+.button button {
     margin-top: 1rem;
+}
+
+.button button {
+    font-size: 1.2rem;
+    padding-top: 0.19rem;
+    margin-bottom: 1rem;
+    color: #000000ec;
 }
